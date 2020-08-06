@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/mohamedshakra/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/mohamedshakra/esp/blink2leds/build/bootloader",
+    "config_file":        "/Users/mohamedshakra/esp/blink2leds/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.1-rc",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/mohamedshakra/esp/esp-idf/components/efuse/Kconfig;/Users/mohamedshakra/esp/esp-idf/components/esp32/Kconfig;/Users/mohamedshakra/esp/esp-idf/components/esp_common/Kconfig;/Users/mohamedshakra/esp/esp-idf/components/log/Kconfig;/Users/mohamedshakra/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/mohamedshakra/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/mohamedshakra/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/mohamedshakra/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/mohamedshakra/esp/esp-idf/components/bootloader", "/Users/mohamedshakra/esp/esp-idf/components/bootloader_support", "/Users/mohamedshakra/esp/esp-idf/components/efuse", "/Users/mohamedshakra/esp/esp-idf/components/esp32", "/Users/mohamedshakra/esp/esp-idf/components/esp_common", "/Users/mohamedshakra/esp/esp-idf/components/esp_rom", "/Users/mohamedshakra/esp/esp-idf/components/esptool_py", "/Users/mohamedshakra/esp/esp-idf/components/log", "/Users/mohamedshakra/esp/esp-idf/components/bootloader/subproject/main", "/Users/mohamedshakra/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/mohamedshakra/esp/esp-idf/components/partition_table", "/Users/mohamedshakra/esp/esp-idf/components/soc", "/Users/mohamedshakra/esp/esp-idf/components/spi_flash", "/Users/mohamedshakra/esp/esp-idf/components/xtensa", "" ]
+}
